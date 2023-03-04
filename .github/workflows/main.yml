@@ -23,4 +23,4 @@ jobs:
           ref: main
 
       - name: Run program
-        run: python text_printing.py
+        run: python print_text.py
