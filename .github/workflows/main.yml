@@ -29,7 +29,7 @@ jobs:
         with:
           # в значение GITHUB_TOKEN помещается ссылка на ваш секрет в репозитории
           # в данном случае его название KEY
-          GITHUB_TOKEN: ${{ secrets.KEY }}
-          BRANCH: test_brach
+          GITHUB_TOKEN: ${{ secrets.test_ent }}
+          repository: ReyLegar/second_ent
           FOLDER: public
           CLEAN: true
